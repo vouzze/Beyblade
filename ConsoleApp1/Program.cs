@@ -1,5 +1,5 @@
 ﻿using System;
-namespace LAB1
+namespace ConsoleApp1
 {
     public class Program
     {
