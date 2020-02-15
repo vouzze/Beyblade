@@ -1,4 +1,4 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestProject1
 {
@@ -8,10 +8,10 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            int a = 5;
-            int b = 6;
-            int result = ConsoleApp1.Program.Example(a, b);
-            Assert.AreEqual(11, result);
+            int a = 3;
+            int b = 10;
+            double result = ConsoleApp1.Program.Square(a, b);
+            Assert.AreEqual(188.4, result);
         }
     }
 }
